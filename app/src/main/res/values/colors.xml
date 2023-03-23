@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lila">#FFBB86FC</color>
+    <color name="azul_cielo">#FF6200EE</color>
+    <color name="azul_fuerte">#FF3700B3</color>
+    <color name="turquesa">#FF03DAC5</color>
+    <color name="verde_osc">#FF018786</color>
+    <color name="black">#FF0A0A0A</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fondo_app">#811F9AEB</color>
+    <color name="fondo_app_2">#FF06197E</color>
+    <color name="fondo_app_admin">#FF7E066E</color>
+</resources>

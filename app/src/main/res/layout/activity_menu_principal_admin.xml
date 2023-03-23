@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal_admin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar_admin"/>
+
+            <io.github.florent37.shapeofview.shapes.ArcView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:elevation="4dp"
+                app:shape_arc_height="30dp"
+                app:shape_arc_position="bottom">
+                <!-- YOUR CONTENT -->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/fondo_app_admin"/>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:id="@+id/ImageVCab"
+                    android:foregroundGravity="bottom"
+                    android:src="@drawable/mm_logo_2"
+                    android:layout_marginTop="20dp"/>
+
+            </io.github.florent37.shapeofview.shapes.ArcView>
+
+            <Button
+                android:id="@+id/btn_InL_Logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="400dp"
+                android:text="EN CONSTRUCCION"
+                android:background="@color/azul_fuerte"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
